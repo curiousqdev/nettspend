@@ -4,10 +4,14 @@
 
 
 <script>
-     const audio = new Audio("happytime.ogg"); audio.loop = true; audio.play();
+function PlayMusic() {
+
+  var play=document.getElementById("music");
+  play.play();
+}
 </script>
 
 <body behavior="scroll" direction="right">
-     
+ <audio controls src="happytime.ogg" id="music"></audio>
   <img src="nettspend hand.webp" alt="Netttspenddd" width=100% height=100%>
 </body>
